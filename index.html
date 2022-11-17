@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootcamp Dnc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #NavHeader{
+        width: 100%;
+        height: 100%;
+        border: solid black;
+        background-color: #303030;
+    }
+    .MenuNavHeader a{ 
+        font-family: 'Inter', sans-serif;;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+    }
+    #LoginButton{
+        background-color: blue;
+        border-radius: 15px;
+        width: 60px;
+        height: 25px;
+        color: white;
+
+    }
+</style>
 </head>
 <body>
-    
+    <nav id="NavHeader">
+        <div class="MenuNavHeader">
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos para participar</a> 
+        </div>     
+        <button id="LoginButton">Login</button>
+    </nav>
 </body>
 </html>
